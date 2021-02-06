@@ -1,0 +1,16 @@
+body{
+    background-image: url('tobg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.fullContainer{
+    width:30%;
+    margin:auto;
+    background-color:transparent;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    box-shadow: 1px 1px 5px lightgray;
+   
+}

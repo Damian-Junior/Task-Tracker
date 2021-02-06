@@ -1,0 +1,84 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 10px;
+}
+.btn{
+    padding:10px;
+    color:white;
+    font-size: large;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px rgb(122, 118, 118);
+}
+#form{
+    padding: 0px 10px;
+}
+#form div{
+    width:100%;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#form div input[type = 'text']{
+    display: block;
+    max-width: 98%;
+    font-size: 1.2em;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px lightgray;
+    border: 1px solid white;
+    outline: none;
+    background-color: #fff;
+}
+#form div label{
+    width:100%;
+    font-size: 1.5em;
+    padding-bottom: 20px;
+    color:#8f4008;
+    font-weight:bolder;
+}
+
+#reminder{
+   margin-left: 20px;
+   box-sizing: border-box;
+   border-radius: 5px;
+   box-shadow: 5px 5px 10px lightgray;
+   cursor: pointer;
+}
+#submit_button{
+   width:100%;
+   background-color: #8f4008;;
+   color:white;
+   font-size: larger;
+   padding: 10px;
+   box-sizing: border-box;
+   border-radius: 5px;
+   margin-top: 0px;
+   cursor: pointer;
+   font-weight: bolder;
+}
+
+.taskDiv {
+    padding:0px 10px;
+    margin-top:10px;
+    background-color:white;
+    margin-left: 5px;
+    box-sizing: border-box;
+}
+.taskDiv h3, .taskDiv p {
+  padding:0px 5px;
+  margin-top:0px;
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+  align-items:baseline;
+  font-family: cursive;
+ }
+.borderLeft{
+    border-left:2px solid green;
+}
